@@ -4,9 +4,10 @@
    .container{
         position: absolute;
         left: 25%;
-        width:100%;
-        height: 100%;
+        width:50%;
+        height: 50%;
         background:#000;
+      
 }
 }
 </style>
@@ -41,7 +42,7 @@
         });
       }
       $( document ).ready(function() {
-        swfobject.embedSWF("https://sophiadetavex.github.io/BNLSITE/bnl.swf", 'ruffle', 1024, 768);
+        swfobject.embedSWF("https://sophiadetavex.github.io/BNLSITE/bnl.swf", 'ruffle', $(window).height(), $(window).width());
       });
     </script>
    </body>
