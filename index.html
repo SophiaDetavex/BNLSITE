@@ -5,7 +5,7 @@
   <body>
     <style>
       /* this portion is middleware and licensed under GPL */
-      .aspectwrapper {
+      ruffle-player.aspectwrapper {
         display: inline-block;
         /* shrink to fit */
         width: 100%;
@@ -13,13 +13,13 @@
         position: relative;
         /* so .content can use position: absolute */
       }
-      .aspectwrapper::after {
+      ruffle-player.aspectwrapper::after {
         padding-top: 56.25%;
         /* percentage of containing block _width_ */
         display: block;
         content: '';
       }
-      .content {
+      ruffle-player.content {
         position: absolute;
         top: 0;
         bottom: 0;
@@ -58,7 +58,8 @@
         var ruffle = window.RufflePlayer.newest(),
           player = Object.assign(document.getElementById(cont).appendChild(ruffle.createPlayer()), {
             width: width,
-            height: height
+            height: height,
+	    class: 'aspect-wrapper content'
           });
         player.load({
           url: url
