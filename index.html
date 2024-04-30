@@ -41,9 +41,9 @@
     <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/BnL_logo.svg/2560px-BnL_logo.svg.png" />
     <div class="aspectwrapper">
       <div class="content">
-        <div id="ruffle"">
+        <div id="ruffle">
          </div>
-		</div>
+	</div>
 	  </div>
 	  <script>
       var swfobject = {
@@ -58,8 +58,7 @@
         var ruffle = window.RufflePlayer.newest(),
           player = Object.assign(document.getElementById(cont).appendChild(ruffle.createPlayer()), {
             width: width,
-            height: height,
-            style: 'width: ' + width + 'px; height: ' + height + 'px',
+            height: height
           });
         player.load({
           url: url
