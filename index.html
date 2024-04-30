@@ -19,7 +19,7 @@
     <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
     <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/BnL_logo.svg/2560px-BnL_logo.svg.png" />
-    <div class="container"><div id="ruffle"></div></div><script>
+    <div class="container"><div id="ruffle" style="height: 90vh; width: 90vh"></div></div><script>
     
       var swfobject = {
         ua: {
@@ -41,7 +41,7 @@
         });
       }
       $( document ).ready(function() {
-        swfobject.embedSWF("https://sophiadetavex.github.io/BNLSITE/bnl.swf", 'ruffle', (window).width(), (window).height());
+        swfobject.embedSWF("https://sophiadetavex.github.io/BNLSITE/bnl.swf", 'ruffle', 600, 800);
       });
     </script>
    </body>
