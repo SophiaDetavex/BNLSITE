@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html>
-<body>
-<script src="https://code.jquery.com/jquery-3.7.1.js"   integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="   crossorigin="anonymous"></script>
-<link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/BnL_logo.svg/2560px-BnL_logo.svg.png"/>
-<script type="text/javascript">
- $( document ).ready(function() {
-    window.location.href = "bnl.swf";
-});
-</script>
-</body>
+  <body>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Ruffle Example">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://maddox.page/ruffle-example/main.js"></script>
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+    <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/BnL_logo.svg/2560px-BnL_logo.svg.png" />
+    <script id="gabe">
+      $(document).ready(function() {
+        swfobject.embedSWF("https://sophiadetavex.github.io/bnlsite/bnl.swf", 'ruffle', 1024, 768);
+      });
+    </script>
+  </body>
 </html>
