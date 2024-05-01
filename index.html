@@ -34,8 +34,8 @@
         });
       }
       $( document ).ready(function() {
-	var wallewidth = window.innerwidth - ((window.innerwidth * 30) / 100);
-	var walleheight = window.innerheight - ((window.innerheight * 10) / 100);
+	var wallewidth = window.innerWidth * (1 - 0.30);
+	var walleheight = window.innerHeight - (1 - 0.10);
         swfobject.embedSWF(
 		"https://sophiadetavex.github.io/BNLSITE/bnl.swf",
 		'ruffle',
