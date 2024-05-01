@@ -1,0 +1,211 @@
+
+    body, table, tbody, th, td, p, div, span { font-size: 11px; font-family: verdana, geneva, sans-serif; }
+
+ /* Spacers
+    ========================================================================================================================= */
+    .spacer0p { margin-top: 0px; }
+    .spacer1p { margin-top: 1px; }
+    .spacer2p { margin-top: 2px; }
+    .spacer3p { margin-top: 3px; }
+    .spacer4p { margin-top: 4px; }
+    .spacer5p { margin-top: 5px; }
+    .spacer6p { margin-top: 6px; }
+    .spacer7p { margin-top: 7px; }
+    .spacer8p { margin-top: 8px; }
+    .spacer9p { margin-top: 9px; }
+    .spacer10p { margin-top: 10px; }
+    .spacer12p { margin-top: 12px; }
+    .spacer14p { margin-top: 14px; }
+    .spacer16p { margin-top: 16px; }
+    .spacer18p { margin-top: 18px; }
+    .spacer20p { margin-top: 20px; }
+    .spacer24p { margin-top: 24px; }
+    .spacer30p { margin-top: 30px; }
+
+
+    select { font-size: 11px; font-family: arial }
+    div    { font-size: 11px; font-family: arial }
+
+    .goButton { padding-left: 14px; }
+    .dropDownNav { height: 29px; }
+    .inputBox { font-size: 11px; font-family: arial; font-weight:bold; color: #7A7A7A; width: 140px; }
+    .footerSection   { font-size: 10px; font-family: arial; color: #9E9E9E; }
+
+    .list-item { padding: 2px 0 4px 3px;}
+
+    a.footer:link    { color: #9E9E9E; text-decoration: none; }
+    a.footer:active  { color: #9E9E9E; text-decoration: none; }  
+    a.footer:visited { color: #9E9E9E; text-decoration: none; }  
+    a.footer:hover   { color: #F1A355; text-decoration: underline; } 
+
+
+    #pageRoot
+    {      
+      padding: 0 0 7px 0;
+      background-color: #ffffff;
+    }
+
+    #bannerArea
+    {
+      border: 0;
+      padding: 0;
+      width: 100%;      
+      background-color: #dddddd;
+    }
+
+    #contentArea
+    {
+      width: 100%; 
+      padding-top: 10px;
+      text-align: center; 
+      background-image: url( ../images/global/bg_gradient.gif ); 
+      background-repeat:repeat-x;
+    }
+
+    #background
+    { 
+      width: 50px;
+      background-image: url( ../images/home/bg_gradient.gif );
+      background-repeat: repeat-x;
+      background-position: 0px 0px;  
+    }
+
+    #left-shadow
+    {  
+      width: 7px;  
+      background-image: url( ../images/home/bg_left-shadow.gif );
+      background-repeat: repeat-y;
+      background-position: 0px 0px;
+    }
+
+    #right-shadow
+    {  
+      width: 7px;
+      background-image: url( ../images/home/bg_right-shadow.gif );
+      background-repeat: repeat-y;
+      background-position: 0px 0px;
+    }
+
+    #top-green-bar
+    {
+      width: 770px;
+      height: 10px;
+      /* added the lines for the addition of the Disney Family.com chrome */
+      height: 11px;
+      background-image: url( ../images/home/top_bar_770.gif );
+      /*background-image: url( ../images/home/top_bar_770_chrome.gif );      */
+      background-repeat: no-repeat;
+      background-position: 0px 0px;
+    }
+
+    #bottom-green-bar
+    {
+      width: 770px;
+      height: 23px;  
+      border: none;
+      background-image: url( ../images/home/bottom_bar_770.gif );
+      background-repeat: no-repeat;
+      background-position: 0px 0px;
+    }
+    
+    #contentWindow
+    {
+      border-left: 1px solid #999999; 
+      border-right: 1px solid #999999;
+    }
+
+    #header { height: 65px; text-align: left; vertical-align: top; background-color: #92B404; }    
+    /*#header-left { float: left; display: inline; width: 345px; margin-left: 18px; }
+    #header-right { float: left; display: inline; width: 360px; margin: 12px 20px 0 11px; }     */
+    /* for smile center */
+    #header-left { float: left; display: inline; width: 313px; margin-left: 18px; }
+    #header-right { float: left; display: inline; width: 390px; margin: 12px 20px 0 11px; }    
+    #header-right a:link     { font-size: 12px; font-family: arial; font-weight: bold; color: #e7f6a5; text-decoration: none; }
+    #header-right a:active   { font-size: 12px; font-family: arial; font-weight: bold; color: #e7f6a5; text-decoration: none; }  
+    #header-right a:visited  { font-size: 12px; font-family: arial; font-weight: bold; color: #e7f6a5; text-decoration: none; }  
+    #header-right a:hover    { color: #5F7603; text-decoration: underline; }
+    #header-right img { margin: 4px 3px 0 0; }    
+
+    #top-content-left
+    {
+      float: left;
+      width: 505px;
+      text-align: left;      
+    }
+
+    #top-content-right
+    {
+      float: left;      
+      width: 249px; 
+      height: 250px;
+      text-align: left;  
+      vertical-align: top;      
+
+      background-image: url( ../images/home/bg_horizontal-dot.gif ); 
+      background-repeat: repeat-x;
+      background-position: 0px 248px;  
+    }
+    
+    #searchForm { margin-left: 29px; }
+
+    .bucketHeader { color: #ffa713; font: bold 14px arial; }
+    .bucketSubHeader { color: #ffa713; font: bold 10px arial; }
+    .bucketPhoto { padding-bottom: 5px; }
+
+ /* Nazo 
+    =========================================================================================================================== */
+
+    #bottomSection
+    {
+      background-image: url( ../images/home/bg_vertical-dot.gif ); 
+      background-repeat: repeat-y;
+      background-position: 505px 0px;    
+    }
+    
+    #bottomLinkSection 
+    {      
+      width: 505px;
+      float: left;
+      
+      background-image: url( ../images/home/bg_vertical-dot.gif ); 
+      background-repeat: repeat-y;
+      background-position: 252px 0px;    
+    }
+    #bottomLinkSection div { float: left; text-align: left; }
+    
+    #bottomLinkSection a:link     { font-size: 11px; font-family: arial; font-weight:bold; color: #7A7A7A; text-decoration: none; }
+    #bottomLinkSection a:visited  { font-size: 11px; font-family: arial; font-weight:bold; color: #7A7A7A; text-decoration: none; }
+    #bottomLinkSection a:active   { font-size: 11px; font-family: arial; font-weight:bold; color: #7A7A7A; text-decoration: none; }
+    #bottomLinkSection a:hover    { text-decoration: underline; }
+    
+    #leftLinkTable   { margin-left: 3px; width: 155px; padding-top: 9px; display: inline; font-size: 11px; }
+    #rightLinkTable  { margin-left: 3px; width: 154px; padding-top: 9px; display: inline; font-size: 11px; }    
+
+    #bottomLeftSection    { float: left; width: 253px; }
+    #bottomMiddleSection  { float: left; width: 252px; }
+
+    #bottomMagazineSection 
+    {       
+      float: left;
+      text-align: left;
+      vertical-align: top;      
+            
+      width: 249px;
+      height: 121px;
+    }
+    
+    #bottomRightImage 
+    {
+      margin: 13px 0 0 31px;
+      border: 0;
+    }
+    
+    #bottomRightAd
+    {
+      margin: 13px 0 0 31px;
+      border: 0;
+    }    
+    
+    form { margin: 0 }
+    
+    #Banner2AdContainer { display:none; margin-bottom: 40px; }
