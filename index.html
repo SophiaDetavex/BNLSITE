@@ -1,10 +1,12 @@
+<!DOCTYPE HTML>
 <html>
   <head>
     <link rel="shortcut icon" type="image/x-icon" href="/BNLSITE/favicon.ico">
   </head>
   <body>
     <style>
-      /* this portion is middleware and licensed under GPL */
+      /* this portion is middleware and 
+	 licensed under GPL */
       ruffle-player.aspectwrapper {
         display: inline-block;
         /* shrink to fit */
@@ -32,7 +34,6 @@
     </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="title" content="Buy N Large">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
@@ -58,15 +59,14 @@
         var ruffle = window.RufflePlayer.newest(),
           player = Object.assign(document.getElementById(cont).appendChild(ruffle.createPlayer()), {
             width: width,
-            height: height,
-	    class: 'aspect-wrapper content'
+            height: height
           });
         player.load({
           url: url
         });
       }
       $( document ).ready(function() {
-        swfobject.embedSWF("https://sophiadetavex.github.io/BNLSITE/bnl.swf", 'ruffle' ,window.innerWidth, window.innerHeight)});
+        swfobject.embedSWF("https://sophiadetavex.github.io/BNLSITE/bnl.swf", 'ruffle' ,window.innerWidth - 0.30, window.innerHeight)});
    </script>
   </body>
 </html>
