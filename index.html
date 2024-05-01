@@ -1,6 +1,16 @@
 <!DOCTYPE HTML>
 <html>
   <head>
+  <style>
+  .container{
+        position: absolute;
+        left: 25%;
+        width:50%;
+        height: 50%;
+        background:#000;
+
+  }
+  </style>
     <link rel="shortcut icon" type="image/x-icon" href="/BNLSITE/favicon.ico">
   </head>
   <body>
@@ -12,8 +22,10 @@
     <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
     <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/BnL_logo.svg/2560px-BnL_logo.svg.png" />
-        <div id="ruffle">
+    <div class="container">
+	<div id="ruffle">
          </div>
+    </div>
 	  <script>
       var swfobject = {
         ua: {
@@ -34,7 +46,7 @@
         });
       }
       $( document ).ready(function() {
-	var wallewidth = window.innerWidth * (1 - 0.30);
+	var wallewidth = window.innerWidth * (1 - 0.33);
 	var walleheight = window.innerHeight - (1 - 0.40);
         swfobject.embedSWF(
 		"https://sophiadetavex.github.io/BNLSITE/bnl.swf",
