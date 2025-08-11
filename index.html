@@ -1,6 +1,18 @@
 <!DOCTYPE HTML>
 <html>
   <head>
+  <script>
+	  window.onload = function() {
+  		// Code to execute after the entire page and all resources have loaded
+  		console.log("Window fully loaded!");
+  		// Initialize JavaScript components, start animations, etc.
+			document.body.style.zoom = "170%"
+	  };
+  <script>
+	  function zoom() {
+            document.body.style.zoom = "170%" 
+        }
+	</script>
   <style>
   .container{
         position: absolute;
@@ -13,7 +25,7 @@
   </style>
     <link rel="shortcut icon" type="image/x-icon" href="/BNLSITE/favicon.ico">
   </head>
-  <body>
+  <body onload="zoom()">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <script src="https://sophiadetavex.github.io/BNLSITE/breadcrumb.js"></script>
